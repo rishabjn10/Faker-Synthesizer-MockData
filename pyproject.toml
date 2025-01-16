@@ -1,0 +1,20 @@
+[project]
+name = "faker-mock-data"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Rishabh Jain", email = "rishabh.jain@closeloop.com"},
+]
+dependencies = [
+    "ipykernel>=6.29.5",
+    "openpyxl>=3.1.5",
+    "pandas>=2.2.3",
+    "Faker>=33.1.0",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "NA"}
+
+
+[tool.pdm]
+distribution = false
